@@ -1,0 +1,44 @@
+@charset "utf-8";
+body{background: #efefef;}
+#member{width:100%; height: 100%;background: #efefef;font-size: 0.1875rem;box-sizing:border-box;}
+/*头部*/
+#member header{height: 4.21875rem;margin-bottom: 0.28125rem;}
+#member header>div{height: 3.125rem;background: #ffd600;display: flex;align-items:center;padding: 0 0.5rem;}
+#member header>div>img:first-of-type{width: 1.828125rem;height: 1.84375rem;margin-right: 0.46875rem;}
+#member header>div>img:last-of-type{width: 0.34375rem;height: 0.59375rem;margin-left:3.359375rem; }
+#member header>div p a img,header>div p a{width: 2.59375rem;height: 0.875rem;}
+#member header>div p{width: 2.8125rem;height: 1.5625rem;color: #fff;}
+#member header>div p span{margin-bottom: 0.28125rem;}
+
+#member header>p{height: 1.09375rem;background: #f3c800;display: flex;align-items:center;}
+#member header>p span{height: 0.65625rem;width: 4.96875rem;text-align: center;}
+#member header>p span:first-of-type{border-right: 1px solid #fff;}
+#member header>p span img{width: 0.546875rem;height: 0.546875rem;margin-right: 0.390625rem;}
+/*我的订单*/
+#order{height: 3.796875rem;background: #fff;margin-bottom: 0.3125rem;}
+#order>a{display: block;border-bottom: 1px solid #e0e0e0;height: 1.53125rem;line-height: 1.53125rem;padding: 0 0.46875rem;display: flex;justify-content:space-between;font-size: 0.390625rem;}
+#order>a span{color: #a4a4a4;}
+#order>a span img{width: 0.15625rem;height: 0.3125rem;margin-left: 0.171875rem;}
+#order>div{height: 2.234375rem;display: flex;justify-content:space-around;}
+#order>div a{display: flex;flex-direction:column;margin-top: 0.671875rem;}
+#order>div a b img{width: 0.5625rem;height: 0.546875rem;margin: 0 auto;display: block;}
+#order>div a span{margin:0.3125rem auto;}
+/*积分商城*/
+#inte div{height: 3.125rem;margin-bottom: 0.015625rem;background: #fff;display: flex;justify-content:space-around;}
+#inte div a{display: flex;flex-direction:column;margin-top: 0.9375rem;}
+#inte div a b img{widows: 0.828125rem;height: 0.71875rem;margin: 0 auto;display: block;}
+#inte div a span{margin:0.3125rem auto; }
+#inte>div:last-of-type{justify-content:flex-start;padding-left: 0.53125rem;}
+#inte>div:last-of-type a{margin-right: 0.828125rem;}
+/*退出当前账号*/
+#exit{display: block;margin-top: 1.125rem;height: 1.25rem;background: #fff;width: 100%;text-align: center;line-height: 1.25rem;margin-bottom: 1.8625rem;}
+
+
+
+
+
+/*footer*/
+footer{width: 100%;height: 1.5625rem;background: #e7e7e4;position: fixed;left: 0;bottom: 0;z-index: 1;display: flex;justify-content:space-around;}
+footer a{display: flex;flex-direction:column;margin-top: 0.203125rem;}
+footer a b img{width: 0.5625rem;height: 0.609375rem;display: block;margin: 0 auto;}
+footer a span{margin: 0.21875rem auto;}

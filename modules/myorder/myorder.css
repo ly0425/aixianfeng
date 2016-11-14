@@ -1,0 +1,17 @@
+@charset "utf-8";
+#myorder{width:100%; height: 100%;background: #efefef;font-size: 0.1875rem;box-sizing:border-box;}
+/*header*/
+#myorder header{height: 1.40625rem;background: #f9fafd;border-bottom: 0.03125rem solid #e0e0e0;display: flex;justify-content:space-between;align-items:center;padding: 0 0.40625rem;}
+#myorder header a:first-of-type img{width: 0.359375rem;height: 0.609375rem;}
+#myorder header a:last-of-type img{width: 0.640625rem;height: 0.640625rem;}
+#myorder header p{font-size: 0.40625rem;font-weight: bold;}
+/*全部订单*/
+#all{height: 1.28125rem;background: #fff;border-bottom: 1px solid #e0e0e0;display: flex;justify-content:space-around;}
+#all a{display: inline-block;height: 1.21875rem;line-height: 1.21875rem;}
+#all .on{color: #ff3800;border-bottom: 0.0625rem solid #ff3800;}
+/**/
+#nord{margin-top: 2.28125rem;text-align: center;display: flex;justify-content:center;}
+#nord a{display: flex;flex-direction:column}
+#nord a b img{width: 2.5rem;height: 2.5rem;}
+#nord a span{margin-top: 0.421875rem;font-size: 0.375rem;color: #999999;}
+

@@ -1,0 +1,139 @@
+@charset "utf-8";
+#home{width:100%; height: 100%;background: #efefef;font-size: 0.1875rem;box-sizing:border-box;}
+/*头部*/
+#home header{width: 100%;height: 1.4375rem;background: #ffd600;display: flex;justify-content:space-between;
+align-items:center;padding: 0 0.1875rem;position: fixed;z-index: 1;top: 0;}
+/*header a{display: flex;flex-direction:column;}*/
+#home header a:first-of-type b img{display: block;width: 0.546875rem;height: 0.5625rem;}
+#home header a:last-of-type b img{display: block;width: 0.609375rem;height: 0.59375rem;}
+#home header a b img{display: block;margin: 0 auto;}
+#home header a span{margin: 0.1875rem auto;}
+#home header p{font-weight: bold;}
+#home header p img{width: 0.25rem;height: 0.265625rem;margin-left: 0.078125rem;}
+/*轮播图部分*/
+#loop{width: 100%; height: 3.71875rem;overflow: hidden;position: relative;margin-bottom: 0.3125rem;margin-top: 1.4375rem;}
+#loop div{width: 100%;height: 3.71875rem;animation: showImg 12s linear infinite alternate forwards;}
+#loop div img{width:10.0rem;height: 3.71875rem;float: left;}
+#loop p a{display: inline-block;width: 0.1875rem;height: 0.1875rem;border-radius: 50%;background: #aaa;
+margin-left: 0.125rem}
+#loop p{position: absolute;right:0.359375rem;bottom: 0.3125rem;}
+#loop a:hover{background-color: #ffd600; }
+/*#loop a:hover~div,#banner:hover div{animation-play-state: paused;}
+#loop a:nth-of-type(5){right:1.346154rem;}
+#loop a:nth-of-type(4){right:2.211538rem;}
+#loop a:nth-of-type(3){right:3.076923rem;}
+#loop a:nth-of-type(2){right:3.942308rem;}
+#loop a:nth-of-type(1){right:4.807692rem;}
+#loop a:nth-of-type(6):hover~div{
+	animation: s6 0.2s linear forwards;
+}
+@keyframes  s6{
+	100%{margin-left:-500%}
+}
+@keyframes  showImg{
+	0%,11%{
+		margin-left:0;
+	}
+	18%,29%{
+		margin-left:-100%;
+	}
+	36%,47%{
+		margin-left:-200%;
+	}
+	54%,66%{
+		margin-left:-300%;
+	}
+	73%,84%{
+		margin-left:-400%;
+	}
+	90%,100%{
+		margin-left:-500%;
+	}
+}*/
+
+
+/*抽奖*/
+#dr{height: 4.921875rem;background: #fff;padding-top: 0.15625rem;border-bottom: 1px solid #e0e0e0;}
+#dr div{height: 1.921875rem;display: flex;justify-content:space-around;margin-top: 0.265625rem;}
+#dr div>a{display: flex;flex-direction:column;}
+#dr div>a b{display: block;}
+#dr div>a b img{display: block;margin: 0 auto;width: 1.484375rem;height: 1.484375rem;}
+#dr div>a span{margin: 0.133333rem auto;}
+/*先锋头条*/
+#he{margin: 0.3125rem auto;height: 1.0rem;background: #fff;display: flex;align-items:center;}
+#he span{padding: 0 0.234375rem;border-right: 1px solid #e0e0e0;height: 0.6875rem;}
+#he span img{width: 1.921875rem;height: 0.578125rem;}
+#he p{margin-left:0.203125rem;color: #999999;}
+#he p img{width: 0.875rem;height: 0.4375rem;margin-right:0.203125rem;}
+/*骑士酸牛奶*/
+#smilk{height: 4.375rem;background: #fff;margin-bottom: 0.3125rem;display: flex;}
+#smilk ul{border-right: 1px solid #e0e0e0;padding-top: 0.390625rem;width: 3.296875rem;margin-left: 0.3125rem;}
+#smilk ul:last-of-type{border-right: none;}
+#smilk ul li:nth-of-type(1){font-size: 0.421875rem;color: #36c6ee;}
+#smilk ul li:nth-of-type(2){color: #989898;margin-top: 0.140625rem;}
+#smilk ul li:nth-of-type(3) img{width:2.359375rem;height: 2.03125rem;margin-top: 0.34375rem;}
+/*天天特价*/
+#day{height: 4.03125rem;background: #fff;}
+#day tr td{width: 4.96875rem;height: 2.0rem;border:1px solid #e0e0e0;padding-left: 0.234375rem;}
+#day tr td div{float: left;margin-top: 0.234375rem;}
+#day tr td div span{color: #fd7e7b}
+#day tr td b{float: left;margin-left: 0.3125rem;}
+#day tr td b img{width: 1.28125rem;height: 1.515625rem;}
+
+
+/*优选水果*/
+.com{background: #fff;height: 9.890625rem;margin-bottom: 0.3125rem;margin-top: 0.171875rem;}
+.com .common{height: 1.25rem;padding:0 0.296875rem ;display: flex;justify-content:space-between;align-items:center;}
+.com .common b{color: #f38631;font-size: 0.40625rem;}
+.com .common b span{display: inline-block;width: 0.25rem;height: 0.5rem;margin-right: 0.203125rem;background: #f38631;}
+.com .common span{color: #999999;}
+.com .common span img{width: 0.15625rem;height: 0.3125rem;margin-left: 0.3125rem;}
+.com #banner{padding: 0 0.296875rem;height: 2.375rem;margin-bottom: 0.3125rem;}
+.com #banner img{width: 9.40625rem;height: 2.375rem;}
+.com #ul{display: flex;justify-content:space-between;}
+.com #ul ul{height: 5.640625rem;border-right: 1px solid #e0e0e0;width: 3.3125rem;padding-left: 0.15625rem;padding-right: 0.46875rem;position: relative;}
+.com #ul ul:last-of-type{border-right: none;}
+.com #ul ul li{line-height: 0.625rem;}
+.com #ul ul li:nth-of-type(1){height: 3.046875rem;display: flex;align-items:center;}
+.com #ul ul:first-of-type li:nth-of-type(1) img{width: 2.390625rem;height: 2.03125rem;}
+.com #ul ul li:nth-of-type(2){font-size: 0.375rem;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;font-weight: bold;}
+.com #ul ul li:nth-of-type(3){}
+.com #ul ul li:nth-of-type(3) span{display: inline-block;text-align: center;line-height: 0.4375rem;}
+.com #ul ul li:nth-of-type(3) b{display: inline-block;text-align: center;line-height: 0.4375rem;width: 0.8125rem;height: 0.4375rem;border: 1px solid #ff0000;color: #ff0000;margin-right: 0.203125rem;border-radius: 0.09375rem;font-size: 0.28125rem;}
+.com #ul ul li:nth-of-type(3) span{width: 1.5rem;height: 0.4375rem;border-radius: 0.109375rem;background: #ff0000;color: #fff;}
+.com #ul ul li:nth-of-type(4){color: #999999;}
+.com #ul ul li:nth-of-type(5){color: #ff3800}
+.com #ul ul li:nth-of-type(5) span{color: #999999;margin-left: 0.125rem;text-decoration: line-through;}
+.com #ul ul li:nth-of-type(6) img{width: 0.875rem;height: 0.875rem;position: absolute;right: 0.28125rem;bottom: 0.1875rem;}
+.com #ul ul:nth-of-type(2) li:nth-of-type(1) img{width: 2.375rem;height: 2.34375rem;}
+.com #ul ul:last-of-type li:nth-of-type(1) img{width: 2.375rem;height: 2.40625rem;}
+.com #ul ul:last-of-type li:nth-of-type(3) img{width: 0.875rem;height: 0.4375rem;}
+/*牛奶面包*/
+#milk>p b{color: #20b1fa;}
+#milk>p b span{background: #20b1fa;}
+/*卤味熟食*/
+#cook>p b{color: #7b4d03;}
+#cook>p b span{background: #7b4d03;}
+/*酒水饮料*/ 
+#drink>p b{color: #ff3319;}
+#drink>p b span{background: #ff3319;}
+/*零食大趴*/
+#snacks>p b{color: #e80013;}
+#snacks>p b span{background: #e80013;}
+/*方便速食 */
+#fast>p b{color: #1eb2a3;}
+#fast>p b span{background: #1eb2a3;}
+/*先锋热卖*/
+#frHot{background: #efefef;}
+#frHot .spline-top {border: 0; border-top: 0.015625rem solid #e0e0e0;}
+#frHot .theme-grayfont {color: #999;}
+#frHot  legend {text-align: center;font-size:0.34375rem;padding: .5em;padding-bottom: 0;}
+#frHot #frul{padding-left:  0.28125rem ;}
+#frHot #frul #ul{width: 4.546875rem;height: 7.046875rem;background: #fff;margin-top: 0.28125rem;margin-right: 0.3125rem;
+float: left;border-right: none;}
+#frHot #frul #ul ul{width: 4.546875rem;height: 7.046875rem;}
+#frHot #frul #ul ul li{margin-bottom: 0.078125rem;line-height: 0.778125rem;}
+#frHot #frul #ul ul li:first-of-type img{width: 3.359375rem;height: 2.9375rem;margin:  0.625rem 0.46875rem}
+
+
+

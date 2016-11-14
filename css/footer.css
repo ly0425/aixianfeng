@@ -1,0 +1,12 @@
+/*footer*/
+footer{width: 100%;height: 1.5625rem;background: #e7e7e4;position: fixed;left: 0;bottom: 0;
+z-index: 1;display: flex;justify-content:space-around;font-size: 0.1875rem;}
+footer a{display: flex;flex-direction:column;margin-top: 0.203125rem;}
+footer a b img{width: 0.5625rem;height: 0.609375rem;display: block;margin: 0 auto;}
+footer a span{margin: 0.21875rem auto;}
+footer a:nth-of-type(4) b{position: relative;}
+footer a:nth-of-type(4) b span{display: inline-block;width: 0.5625rem;height: 0.5625rem;border-radius: 50%;background: #ff4400;
+color: #fff;text-align: center;line-height: 0.5625rem;position: absolute;top: -0.15625rem;right: -0.35625rem;visibility: hidden;}
+
+
+

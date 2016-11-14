@@ -1,0 +1,114 @@
+@charset "utf-8";
+#integral{width:100%; height: 100%;background: #efefef;font-size: 0.1875rem;box-sizing:border-box;}
+/*header*/
+#integral header{height: 8.53125rem;background: #fff;margin-bottom: 0.3125rem;}
+#integral header h2{height: 1.40625rem;background: #f9fafd;border-bottom: 1px solid #e0e0e0;line-height: 1.40625rem;padding-left: 0.40625rem;}
+#integral header h2 a img{width: 0.359375rem;height: 0.609375rem;margin-right: 3.375rem;}
+/*加载部分开始*/
+.load{
+	width: 100%;
+	height: 5.0rem;
+	border-top: 0.03125rem solid #e0e0e0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.load_1{
+	width: 3.125rem;
+	height: 3.125rem;
+	position: relative;
+}
+.load_2{
+	width: 1.5625rem;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 0;
+}
+.load_3{
+	width: 1.5625rem;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	right: 0;
+}
+.leftcircle{
+	width: 3.125rem;
+	height: 3.125rem;
+	border: 0.3125rem solid transparent;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-bottom: 0.3125rem solid #ef592a;
+	border-left: 0.3125rem solid #ef592a;
+	transform: rotate(45deg);
+	animation: right 2s linear;
+}
+.rightcircle{
+	width: 3.125rem;
+	height: 3.125rem;
+	border: 0.3125rem solid transparent;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-top: 0.3125rem solid #ef592a;
+	border-right: 0.3125rem solid #ef592a;
+	transform: rotate(45deg);
+	animation: left 2s linear;
+}
+@keyframes left{
+	0%{
+		transform: rotate(-135deg);
+	}
+	50%,100%{
+		transform: rotate(45deg);
+	}
+}
+@keyframes right{
+	0%,50%{
+		transform: rotate(-135deg);
+	}
+	100%{
+		transform: rotate(45deg);
+	}
+}
+.load_2>p{
+	width: 100%;
+	text-align: center;
+	height: 0.59375rem;
+	line-height: 2.65625rem;
+	color: #999999;
+	margin-left: 0.3125rem;
+}
+.load_2>p:last-of-type{
+	color: #e64f1a;
+}
+/*header #round{height: 4.96875rem;display: flex;align-items:center;justify-content:center;}
+header #round .ro1{width: 3.125rem;height: 3.125rem;border: 0.5625rem solid #ef592a;border-radius: 50%;}
+header #round .ro2{width: 2.65625rem;height: 2.65625rem;border: 0.234375rem solid #e13600;border-radius: 50%;}*/
+
+#integral header #detail{border-top:1px solid #e0e0e0;height: 2.0625rem;display: flex;justify-content:space-around;}
+#integral header #detail a{display: flex;flex-direction:column;border-right: 1px solid #e0e0e0;width: 3.3125rem;height: 2.0625rem;}
+#integral header #detail a:last-of-type{border-right: none;}
+#integral header #detail a b{display: block;}
+#integral header #detail a b img{width: 0.75rem;height: 0.75rem;display: block;margin: 0.3125rem auto;}
+#integral header #detail a span{color: #b2b2b2;text-align: center;}
+/*积分券*/
+#arch{background: #fff;}
+#arch tr{height: 4.59375rem}
+#arch tr td{width: 4.96875rem;height: 4.59375rem;padding-left: 0.3125rem;border:1px solid #e0e0e0;}
+#arch tr td b,#arch tr td b img{width: 3.03125rem;height: 1.65625rem;/*text-align: center;*/margin-left: 0.3125rem;}
+#arch tr td p{margin-top: 0.625rem;margin-bottom: 0.15625rem;}
+#arch tr td span{color: #eb6c40;}
+
+
+
+
+
+
+
+
